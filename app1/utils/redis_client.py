@@ -1,5 +1,7 @@
-import redis
-from app.core.config import REDIS_URL
+﻿import redis
+
+from app1.core.config import REDIS_URL
+
 
 def get_redis_client():
     try:
@@ -8,5 +10,6 @@ def get_redis_client():
         return client
     except Exception:
         return None
+
 
 redis_client = get_redis_client()
