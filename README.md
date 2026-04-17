@@ -120,6 +120,10 @@ docker-compose up --build
 * backend — FastAPI (uvicorn)
 * redis — кэширование
 
+создан в докере:
+
+<img width="1216" height="45" alt="image" src="https://github.com/user-attachments/assets/331713bf-0174-4f36-84e7-dc1a5adc5675" />
+
 ---
 
 ## Требования выполнены
